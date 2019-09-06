@@ -9,7 +9,7 @@
 ### Thoughts at this time. I can steal SSH and Telnet credentials from two security scanners. This is getting interesting, but I have other projects to focus on. Let me come back to this later but use it for "research gigs".
 
 ## Further research
-2017 - Talked about the idea to Ben after going through some "hoops" at my employer. Also gained much more in depth knowledge on how vulnerability scanners "worked" in this process, figured out this impact MUCH more than just a couple of vulnerability scanners.
+2017 - Talked about the idea to Ben after going through some "hoops" at my employer. Also gained much more in depth knowledge on how vulnerability scanners "worked" in this process, figured out this impact MUCH more than just a couple of vulnerability scanners. Identified that we could grab SMB also. Also identified that we could listen on any common port that scanners "check" and get the credentals for SSH and SNMP.
 ### Thoughts at this time. Oh shit. This is a bad day for asset discovery and vulnerability scanning tools. I better tell more people about this issue!
 
 ## Talk Submissions
