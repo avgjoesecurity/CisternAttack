@@ -6,7 +6,7 @@ Twitter Handle(s) of speaker(s)
 Example: Karl - @dorkultra , Bob Speaker - @bobspeaks ....(clearly showing name association with twitter handle, separating multiple speakers by commas). This info will be published on the handout and website unless notice is given
 
 Joe Tegg - @AvgJoeSecurity
-Fraq - @BrenBriggs
+Fraq - @0xfraq (née @BrenBriggs)
 
 Speaker(s) Bio *
 Provide a brief bio for the Speaker(s)
