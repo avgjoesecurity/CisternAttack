@@ -13,9 +13,13 @@ Windows Local Admin, Windows Domain Admin, SSH, SNMP
 ### Vulnerable security and infrastructure tools:
 
 Qualys Security Scanner
+
 Rapid7 Vulnerability Scanner
+
 Tenable Vulnerability Scanner
+
 ServiceNow Asset Discovery
+
 HP Asset Manager
 
 
