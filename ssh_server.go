@@ -1,3 +1,5 @@
+// Written by Ben Glass. Use to do cool stuff.
+
 package main
 
 import (
