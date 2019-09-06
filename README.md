@@ -139,4 +139,4 @@ Bren Briggs
 Just give credit where credit is due. This has been something in the works for a LONG time and was strictly used in testing activities but we thought it should be shared because of the impact to well known asset discovery and security tools that share high levels of access and have crappy recomendations for credential use.
 
 ## TIMELINE
-Please see the timeline.md file for the initial finding, research, and public talk submissions (trying to make this public).
+Please see the TIMELINE.md file for the initial finding, research, and public talk submissions (trying to make this public).
