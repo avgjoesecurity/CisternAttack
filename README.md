@@ -130,9 +130,11 @@ Serveral allow SOME restrictions on the use of credentials, but their usefulness
    * Limit the exposure of certain credentials to a "known" asset group. (Don't expose Windows (SMB) credentials to fingerprinted Linux devices, don't use SNMP on Windows devices, etc)
    * Give administrators MORE control on where credentials are utilized, period.
 
-3. Use an integration with a IAM tool (secrets management) for one time passwords on scanned assets. Ensure that this integration can scale and is effective.
+3. Use SSH keys. In our testing we could only gather the public key, not the private key. Thus, this is a way to reduce exposure to the attack, at least for SSH.
 
-4. Use security automation tools to review and verify that scanning credentials are only being used DURING SCANS. This is so easy but NO ONE does it, in the research that we have done. Hell, most places don't even monitor their credentials at all....
+4. Use an integration with a IAM tool (secrets management) for one time passwords on scanned assets. Ensure that this integration can scale and is effective.
+
+5. Use security automation tools to review and verify that scanning credentials are only being used DURING SCANS. This is so easy but NO ONE does it, in the research that we have done. Hell, most places don't even monitor their credentials at all....
 
 ## Authors / Researchers / Contributors
 Joe Tegg
