@@ -52,7 +52,7 @@ Yes.
 We just need access to project from one laptop, we will do slides and demo from that device. If this is an issue, let us know, we’re flexible.
 
 
-### ShmooCon 2018 Rejection
+### ShmooCon 2018 Confirmation
 
 From: SC2018 <XXXXXXXXXX@shmoocon.org>
 Subject: [SC2018] Submission ID 48
