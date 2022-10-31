@@ -51,3 +51,55 @@ Yes.
 == List of facilities requested ==
 We just need access to project from one laptop, we will do slides and demo from that device. If this is an issue, let us know, we’re flexible.
 
+
+### ShmooCon 2018 Rejection
+
+From: SC2018 <XXXXXXXXXX@shmoocon.org>
+Subject: [SC2018] Submission ID 48
+Date: October 14, 2017 at 11:26:02 AM EDT
+To: joe@tegg-inc.com
+
+Thank you for your submission to SC2018.  Below is a copy of the information submitted for your records.
+
+Submission ID: 48
+
+Title: Portable Cistern Attack: Deceive the Infrastructure, Get the Creds
+
+Author 1:
+   First Name: Joe
+   Last Name: Tegg
+   Organization:
+   Country: United States
+   Email: joe@tegg-inc.com
+   Twitter: https://twitter.com/AvgJoeSecurity
+
+
+Author 2:
+   First Name: Ben
+   Last Name: Glass
+   Organization:
+   Country: United States
+   Email: glassjben@gmail.com
+   Twitter:
+
+
+Contact Author: Author 1
+
+Alternate Contact:
+
+Topic(s):
+   - Bring It On
+   - Bring It On - 20
+
+
+Keywords: Attack, Credential Harvesting, Vuln Scanners, Infrastructure tools
+
+Abstract: We’ve all seen the devastating impact of the Watering Hole attacks on victims. The attackers watch the victim, learn their behavior and trick them using their own behavior to capture creds (or install malware). Ben and I have mimicked those techniques and found a method to do something similar against standard infrastructure security and discovery tools once an attacker has completed an initial compromise (non-privileged, or privileged) in an Enterprise network. Using the behavior of the existing enterprise infrastructure against itself, we easily identify and collect administrative level credentials for several classes of assets (windows, unix, network, FWs, etc) just by deploying a small package of tools.
+
+The presentation will go into detail on the attack methodology, why it works, what is/could be impacted, and finally the controls and mitigations to reduce the attack surface area. The source code for the tools we built which perform this attack will also be released for the presentation.
+
+Comments:
+
+
+
+File: uploaded
