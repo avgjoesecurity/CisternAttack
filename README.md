@@ -11,17 +11,11 @@ Security and infrastructure scanning tools are an integral part of a mature Info
 Windows Local Admin, Windows Domain Admin, SSH, SNMP
 
 ### Vulnerable security and infrastructure tools:
-
-Qualys Security Scanner
-
-Rapid7 Vulnerability Scanner
-
-Tenable Vulnerability Scanner
-
-ServiceNow Asset Discovery
-
-HP Asset Manager
-
+- Qualys Security Scanner
+- Rapid7 Vulnerability Scanner
+- Tenable Vulnerability Scanner
+- ServiceNow Asset Discovery
+- HP Asset Manager
 
 ## Attack Methhod Workflows
 
@@ -73,7 +67,7 @@ Profit.
 
 ## Attack Tools and Useage
 
-SMB 
+SMB (pending)
 ```
 Use SMB Responder
 ```
@@ -123,12 +117,10 @@ Serveral allow SOME restrictions on the use of credentials, but their usefulness
 ### So how the heck can we prevent people like you from doing this on my network?
 
 1. Configure asset discovery tools to NOT authenticate, just find the assets and fingerprint them.
-
-2. Encourage the tool vendors to address this long known weakness in their tool capability by offering the following controls:
-   
-   * Limit the port to the specific TCP/UDP ports that are expected, no other ports
-   * Limit the exposure of certain credentials to a "known" asset group. (Don't expose Windows (SMB) credentials to fingerprinted Linux devices, don't use SNMP on Windows devices, etc)
-   * Give administrators MORE control on where credentials are utilized, period.
+1. Encourage the tool vendors to address this long known weakness in their tool capability by offering the following controls: 
+  - Limit the port to the specific TCP/UDP ports that are expected, no other ports
+  - Limit the exposure of certain credentials to a "known" asset group. (Don't expose Windows (SMB) credentials to fingerprinted Linux devices, don't use SNMP on Windows devices, etc)
+  - Give administrators MORE control on where credentials are utilized, period.
 
 3. Use SSH keys. In our testing we could only gather the public key, not the private key. Thus, this is a way to reduce exposure to the attack, at least for SSH.
 
@@ -137,10 +129,10 @@ Serveral allow SOME restrictions on the use of credentials, but their usefulness
 5. Use security automation tools to review and verify that scanning credentials are only being used DURING SCANS. This is so easy but NO ONE does it, in the research that we have done. Hell, most places don't even monitor their credentials at all....
 
 ## Authors / Researchers / Contributors
-Joe Tegg
-Ben Glass
-Troy Newcomb
-Bren Briggs
+ - Joe Tegg
+ - Ben Glass
+ - Troy Newcomb
+ - Bren Briggs
 
 ## License
 
